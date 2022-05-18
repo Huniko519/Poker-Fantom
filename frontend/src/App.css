@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 65px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.x-font1{
+  color: white;
+  font-size: 30px;
+}
+
+.x-font2{
+  color: #f2db63;
+  font-size: 40px;
+}
+
+.x-home-text-content{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  white-space: pre-wrap;
+}
+
+.x-deposit-pending{
+  font-size: 25px;
+  color: grey;
+  margin-top: 50px;
+  font-family: initial;
+}
+
+.x-grid1{
+  margin-left: 20%;
+  width: 60%;
+}
+
+.x-winCup{
+  padding-top: 100px;
+  text-align: center;
+}
+.x-replay{
+  margin-top: 50px;
+}
+.x-loser-content{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
